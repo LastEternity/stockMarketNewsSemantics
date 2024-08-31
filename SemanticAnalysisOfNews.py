@@ -39,10 +39,13 @@ for idx, link in tqdm(enumerate(news_articles), desc="Fetching news contents"):
     stockDetails = get_stock_market_news(link, query, idx)
     if stockDetails is not None and len(stockDetails) > 200:
         ### Summarize the news content:
-        print("Summarizing Text")
-        summarize = summarize_text(keep_first_n_words(stockDetails, n=350))
-        print(summarize)
-        results.append(get_sentiment_score(summarize))
+        try:
+            print("Summarizing Text")
+            summarize = summarize_text(keep_first_n_words(stockDetails, n=350))
+            print(summarize)
+            results.append(get_sentiment_score(summarize))
+        except:
+            print("Error in summarizing text")
 
         print("Saving")
         shallow_results.append(get_sentiment_score(keep_first_n_words(stockDetails, n=300)))
