@@ -1,0 +1,5 @@
+Summary Results:
+[[{'label': 'neutral', 'score': 0.9873238801956177}], [{'label': 'negative', 'score': 0.9441365599632263}], [{'label': 'positive', 'score': 0.9965481162071228}]]
+
+Shallow Results:
+[[{'label': 'positive', 'score': 0.9956815242767334}], [{'label': 'neutral', 'score': 0.9948582649230957}], [{'label': 'positive', 'score': 0.9223450422286987}]]
