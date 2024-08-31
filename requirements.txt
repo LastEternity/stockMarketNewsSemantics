@@ -2,3 +2,4 @@ tqdm
 transformers
 torch
 bs4
+sentencepiece
