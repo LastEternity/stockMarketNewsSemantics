@@ -3,3 +3,4 @@ transformers
 torch
 bs4
 sentencepiece
+numpy<2
