@@ -4,3 +4,4 @@ torch
 bs4
 sentencepiece
 numpy<2
+yfinance

@@ -1,0 +1,5 @@
+Summary Results:
+[[{'label': 'negative', 'score': 0.9978677034378052}], [{'label': 'positive', 'score': 0.9983963370323181}], [{'label': 'positive', 'score': 0.9643922448158264}], [{'label': 'neutral', 'score': 0.9875870943069458}], [{'label': 'neutral', 'score': 0.959482729434967}], [{'label': 'neutral', 'score': 0.9874874353408813}], [{'label': 'positive', 'score': 0.9897722601890564}]]
+
+Shallow Results:
+[[{'label': 'negative', 'score': 0.9964993000030518}], [{'label': 'negative', 'score': 0.9955112934112549}], [{'label': 'positive', 'score': 0.9972589015960693}], [{'label': 'neutral', 'score': 0.978408694267273}], [{'label': 'neutral', 'score': 0.9977142810821533}], [{'label': 'neutral', 'score': 0.9979089498519897}], [{'label': 'neutral', 'score': 0.727359414100647}]]

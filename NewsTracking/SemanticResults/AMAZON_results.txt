@@ -1,0 +1,5 @@
+Aggregated Results:
+{'results': {'negative': 0.9978677034378052, 'positive': 0.9841869473457336, 'neutral': 0.978185753027598}, 'shallow_results': {'negative': 0.9960052967071533, 'positive': 0.9972589015960693, 'neutral': 0.9253478348255157}}
+
+Overall Sentiment:
+{'results': 'Negative', 'shallow_results': 'Positive'}
